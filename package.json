@@ -16,7 +16,7 @@
         "node": ">=16"
     },
     "files": [
-        "index.js"
+        "index.ts"
     ],
     "peerDependencies": {
         "react": ">=18.0.0",
