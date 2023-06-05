@@ -1,0 +1,32 @@
+{
+    "name": "sua_react_hooks",
+    "version": "1.0.0",
+    "description": "A collection of modern, server-safe React hooks.",
+    "type": "module",
+    "repository": "StephanJ98/sua_react_hooks",
+    "devDependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "exports": {
+        "default": "./index.js"
+    },
+    "engines": {
+        "node": ">=16"
+    },
+    "files": [
+        "index.js"
+    ],
+    "peerDependencies": {
+        "react": ">=18.0.0",
+        "react-dom": ">=18.0.0"
+    },
+    "author": "StephanJ98 <diego.jeandon@gmail.com>",
+    "keywords": [
+        "react",
+        "custom",
+        "hooks",
+        "library"
+    ],
+    "license": "ISC"
+}
