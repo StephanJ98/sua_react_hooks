@@ -1,12 +1,12 @@
 import React from "react"
 
-export default function useToggleState() {
+export const useToggleState = (): { state: boolean, toggle: () => void } => {
     const [state, setState] = React.useState(false)
     const toggle = () => { setState(!state) }
     return { state, toggle }
 }
 
-export function useWindowSize() {
+export const useWindowSize = (): { size: [number, number] } => {
     const [size, setSize] = React.useState({
         width: null,
         height: null

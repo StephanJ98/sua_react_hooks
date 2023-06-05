@@ -1,15 +1,16 @@
 {
     "name": "sua_react_hooks",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A collection of modern, server-safe React hooks.",
     "type": "module",
     "repository": "StephanJ98/sua_react_hooks",
     "devDependencies": {
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "typescript": "^5.1.3"
     },
     "exports": {
-        "default": "./index.js"
+        "default": "./index.ts"
     },
     "engines": {
         "node": ">=16"
